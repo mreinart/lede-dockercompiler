@@ -2,6 +2,7 @@
 # Docker based LEDE/OpenWRT build environment
 # (c) 2019-2020 Jan Delgado
 set -euo pipefail
+set -x
 
 # base Tag to use for docker image
 DEF_IMAGE_TAG=jandelgado/openwrt-imagecompiler
